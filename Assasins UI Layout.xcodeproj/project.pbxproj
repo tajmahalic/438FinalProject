@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45058365B953E3C5CA267DC5 /* Pods_Assasins_UI_LayoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DFD057B1D6D38DFC5968B0 /* Pods_Assasins_UI_LayoutUITests.framework */; };
+		53429F00E3659E9F65FA8212 /* Pods_Assasins_UI_Layout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147ED69A674ED2D70090D828 /* Pods_Assasins_UI_Layout.framework */; };
 		68853FF4219E5719003E287B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68853FF3219E5719003E287B /* AppDelegate.swift */; };
 		68853FF6219E5719003E287B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68853FF5219E5719003E287B /* ViewController.swift */; };
 		68853FF9219E5719003E287B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68853FF7219E5719003E287B /* Main.storyboard */; };
@@ -15,6 +17,29 @@
 		68854001219E571B003E287B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68853FFF219E571B003E287B /* LaunchScreen.storyboard */; };
 		6885400C219E571B003E287B /* Assasins_UI_LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885400B219E571B003E287B /* Assasins_UI_LayoutTests.swift */; };
 		68854017219E571B003E287B /* Assasins_UI_LayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68854016219E571B003E287B /* Assasins_UI_LayoutUITests.swift */; };
+		68A95D6121B4D737001EFD1E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A95D6021B4D737001EFD1E /* CameraViewController.swift */; };
+		68A95D6921B4E439001EFD1E /* PlaceholderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A95D6821B4E439001EFD1E /* PlaceholderImage.png */; };
+		68A95D7221B500A9001EFD1E /* AssassinPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A95D7021B500A8001EFD1E /* AssassinPlayer.swift */; };
+		68A95D7321B500A9001EFD1E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A95D7121B500A8001EFD1E /* Game.swift */; };
+		68A95D7821B50177001EFD1E /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A95D7721B50176001EFD1E /* UserClass.swift */; };
+		68A95D7F21B51302001EFD1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68A95D7E21B51302001EFD1E /* GoogleService-Info.plist */; };
+		68A95D8121B54929001EFD1E /* EnterMoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A95D8021B54929001EFD1E /* EnterMoreInfoViewController.swift */; };
+		B85419C421AB4FC80057D092 /* TargetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85419C321AB4FC80057D092 /* TargetDetailViewController.swift */; };
+		B85419C621AB721E0057D092 /* LobbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85419C521AB721E0057D092 /* LobbyTableViewCell.swift */; };
+		B859B06F21B3046E00675703 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B06E21B3046E00675703 /* CameraHandler.swift */; };
+		B859B07121B305CF00675703 /* Camera2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B07021B305CF00675703 /* Camera2ViewController.swift */; };
+		B859B07721B3238800675703 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B07621B3238800675703 /* UserProfileViewController.swift */; };
+		B859B07A21B3250500675703 /* EditUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B07921B3250500675703 /* EditUserProfileViewController.swift */; };
+		B859B07C21B36C5600675703 /* GamePlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B07B21B36C5600675703 /* GamePlayerTableViewCell.swift */; };
+		B859B07E21B379EE00675703 /* CreateGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B07D21B379EE00675703 /* CreateGameViewController.swift */; };
+		B874FF3B21A3E70700874204 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874FF3A21A3E70700874204 /* LoginViewController.swift */; };
+		B874FF3D21A3F54200874204 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874FF3C21A3F54200874204 /* RegistrationViewController.swift */; };
+		B874FF3F21A4EA8400874204 /* TargetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874FF3E21A4EA8400874204 /* TargetTableViewCell.swift */; };
+		B874FF4121A6786B00874204 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874FF4021A6786B00874204 /* LobbyViewController.swift */; };
+		B874FF4321A6816D00874204 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874FF4221A6816D00874204 /* GameViewController.swift */; };
+		B874FF4521A71EDB00874204 /* TargetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874FF4421A71EDB00874204 /* TargetsViewController.swift */; };
+		B8A1299A21ACDCC3003DAF0D /* LearderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1299921ACDCC3003DAF0D /* LearderboardViewController.swift */; };
+		F16F95F4FBE301369D48F928 /* Pods_Assasins_UI_LayoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C73468264459646EA711AF /* Pods_Assasins_UI_LayoutTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147ED69A674ED2D70090D828 /* Pods_Assasins_UI_Layout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assasins_UI_Layout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A50A4234AC8D3BB308C793 /* Pods-Assasins UI Layout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assasins UI Layout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assasins UI Layout/Pods-Assasins UI Layout.debug.xcconfig"; sourceTree = "<group>"; };
+		27C73468264459646EA711AF /* Pods_Assasins_UI_LayoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assasins_UI_LayoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		340D60A6FEE81D98480F92CC /* Pods-Assasins UI LayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assasins UI LayoutUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assasins UI LayoutUITests/Pods-Assasins UI LayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48C46B7739625BAAEC385C9D /* Pods-Assasins UI LayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assasins UI LayoutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assasins UI LayoutTests/Pods-Assasins UI LayoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		65DFD057B1D6D38DFC5968B0 /* Pods_Assasins_UI_LayoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assasins_UI_LayoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68853FF0219E5719003E287B /* Assasins UI Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assasins UI Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68853FF3219E5719003E287B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68853FF5219E5719003E287B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +80,31 @@
 		68854012219E571B003E287B /* Assasins UI LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assasins UI LayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68854016219E571B003E287B /* Assasins_UI_LayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assasins_UI_LayoutUITests.swift; sourceTree = "<group>"; };
 		68854018219E571B003E287B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A95D6021B4D737001EFD1E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		68A95D6821B4E439001EFD1E /* PlaceholderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceholderImage.png; sourceTree = "<group>"; };
+		68A95D7021B500A8001EFD1E /* AssassinPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssassinPlayer.swift; sourceTree = "<group>"; };
+		68A95D7121B500A8001EFD1E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		68A95D7721B50176001EFD1E /* UserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		68A95D7E21B51302001EFD1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		68A95D8021B54929001EFD1E /* EnterMoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnterMoreInfoViewController.swift; path = ../../../../Downloads/EnterMoreInfoViewController.swift; sourceTree = "<group>"; };
+		959B7CA750EEEB9BABD2FCC5 /* Pods-Assasins UI Layout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assasins UI Layout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assasins UI Layout/Pods-Assasins UI Layout.release.xcconfig"; sourceTree = "<group>"; };
+		B85419C321AB4FC80057D092 /* TargetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDetailViewController.swift; sourceTree = "<group>"; };
+		B85419C521AB721E0057D092 /* LobbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyTableViewCell.swift; sourceTree = "<group>"; };
+		B859B06E21B3046E00675703 /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		B859B07021B305CF00675703 /* Camera2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera2ViewController.swift; sourceTree = "<group>"; };
+		B859B07621B3238800675703 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		B859B07921B3250500675703 /* EditUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserProfileViewController.swift; sourceTree = "<group>"; };
+		B859B07B21B36C5600675703 /* GamePlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayerTableViewCell.swift; sourceTree = "<group>"; };
+		B859B07D21B379EE00675703 /* CreateGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameViewController.swift; sourceTree = "<group>"; };
+		B874FF3A21A3E70700874204 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B874FF3C21A3F54200874204 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		B874FF3E21A4EA8400874204 /* TargetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetTableViewCell.swift; sourceTree = "<group>"; };
+		B874FF4021A6786B00874204 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		B874FF4221A6816D00874204 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B874FF4421A71EDB00874204 /* TargetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsViewController.swift; sourceTree = "<group>"; };
+		B8A1299921ACDCC3003DAF0D /* LearderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearderboardViewController.swift; sourceTree = "<group>"; };
+		C7534C72940B5AE7FA0170D9 /* Pods-Assasins UI LayoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assasins UI LayoutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assasins UI LayoutUITests/Pods-Assasins UI LayoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A9DBEDB6687CC2A39A3234 /* Pods-Assasins UI LayoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assasins UI LayoutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assasins UI LayoutTests/Pods-Assasins UI LayoutTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53429F00E3659E9F65FA8212 /* Pods_Assasins_UI_Layout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16F95F4FBE301369D48F928 /* Pods_Assasins_UI_LayoutTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +128,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45058365B953E3C5CA267DC5 /* Pods_Assasins_UI_LayoutUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AF94F5649D7BE5D0C7A8EB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A50A4234AC8D3BB308C793 /* Pods-Assasins UI Layout.debug.xcconfig */,
+				959B7CA750EEEB9BABD2FCC5 /* Pods-Assasins UI Layout.release.xcconfig */,
+				F2A9DBEDB6687CC2A39A3234 /* Pods-Assasins UI LayoutTests.debug.xcconfig */,
+				48C46B7739625BAAEC385C9D /* Pods-Assasins UI LayoutTests.release.xcconfig */,
+				C7534C72940B5AE7FA0170D9 /* Pods-Assasins UI LayoutUITests.debug.xcconfig */,
+				340D60A6FEE81D98480F92CC /* Pods-Assasins UI LayoutUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		68853FE7219E5719003E287B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +155,8 @@
 				6885400A219E571B003E287B /* Assasins UI LayoutTests */,
 				68854015219E571B003E287B /* Assasins UI LayoutUITests */,
 				68853FF1219E5719003E287B /* Products */,
+				0AF94F5649D7BE5D0C7A8EB0 /* Pods */,
+				FFE1B0B226F2ABC6FB54E12B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +173,23 @@
 		68853FF2219E5719003E287B /* Assasins UI Layout */ = {
 			isa = PBXGroup;
 			children = (
+				68A95D7921B501E8001EFD1E /* Game View */,
+				B859B07221B3089100675703 /* Login */,
+				B859B07321B308AF00675703 /* Lobby */,
+				B859B07421B308D000675703 /* Targets */,
+				B859B07821B3239600675703 /* User Profile */,
+				B859B07521B308E900675703 /* Leaderboard */,
 				68853FF3219E5719003E287B /* AppDelegate.swift */,
 				68853FF5219E5719003E287B /* ViewController.swift */,
+				68A95D7421B500B5001EFD1E /* Game Classes */,
 				68853FF7219E5719003E287B /* Main.storyboard */,
 				68853FFD219E571B003E287B /* Assets.xcassets */,
+				68A95D7E21B51302001EFD1E /* GoogleService-Info.plist */,
+				68A95D6821B4E439001EFD1E /* PlaceholderImage.png */,
 				68853FFF219E571B003E287B /* LaunchScreen.storyboard */,
 				68854002219E571B003E287B /* Info.plist */,
 				68853FFA219E5719003E287B /* Assasins_UI_Layout.xcdatamodeld */,
+				B859B06E21B3046E00675703 /* CameraHandler.swift */,
 			);
 			path = "Assasins UI Layout";
 			sourceTree = "<group>";
@@ -128,6 +212,84 @@
 			path = "Assasins UI LayoutUITests";
 			sourceTree = "<group>";
 		};
+		68A95D7421B500B5001EFD1E /* Game Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68A95D7721B50176001EFD1E /* UserClass.swift */,
+				68A95D7021B500A8001EFD1E /* AssassinPlayer.swift */,
+				68A95D7121B500A8001EFD1E /* Game.swift */,
+			);
+			path = "Game Classes";
+			sourceTree = "<group>";
+		};
+		68A95D7921B501E8001EFD1E /* Game View */ = {
+			isa = PBXGroup;
+			children = (
+				B859B07B21B36C5600675703 /* GamePlayerTableViewCell.swift */,
+				B874FF4221A6816D00874204 /* GameViewController.swift */,
+			);
+			path = "Game View";
+			sourceTree = "<group>";
+		};
+		B859B07221B3089100675703 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B874FF3A21A3E70700874204 /* LoginViewController.swift */,
+				68A95D8021B54929001EFD1E /* EnterMoreInfoViewController.swift */,
+				B874FF3C21A3F54200874204 /* RegistrationViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B859B07321B308AF00675703 /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				B85419C521AB721E0057D092 /* LobbyTableViewCell.swift */,
+				B874FF4021A6786B00874204 /* LobbyViewController.swift */,
+				B859B07D21B379EE00675703 /* CreateGameViewController.swift */,
+			);
+			path = Lobby;
+			sourceTree = "<group>";
+		};
+		B859B07421B308D000675703 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				B874FF3E21A4EA8400874204 /* TargetTableViewCell.swift */,
+				B874FF4421A71EDB00874204 /* TargetsViewController.swift */,
+				B85419C321AB4FC80057D092 /* TargetDetailViewController.swift */,
+				B859B07021B305CF00675703 /* Camera2ViewController.swift */,
+				68A95D6021B4D737001EFD1E /* CameraViewController.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		B859B07521B308E900675703 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				B8A1299921ACDCC3003DAF0D /* LearderboardViewController.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		B859B07821B3239600675703 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B859B07621B3238800675703 /* UserProfileViewController.swift */,
+				B859B07921B3250500675703 /* EditUserProfileViewController.swift */,
+			);
+			path = "User Profile";
+			sourceTree = "<group>";
+		};
+		FFE1B0B226F2ABC6FB54E12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147ED69A674ED2D70090D828 /* Pods_Assasins_UI_Layout.framework */,
+				27C73468264459646EA711AF /* Pods_Assasins_UI_LayoutTests.framework */,
+				65DFD057B1D6D38DFC5968B0 /* Pods_Assasins_UI_LayoutUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6885401B219E571B003E287B /* Build configuration list for PBXNativeTarget "Assasins UI Layout" */;
 			buildPhases = (
+				0526DC4749B75FA5FCB5ED25 /* [CP] Check Pods Manifest.lock */,
 				68853FEC219E5719003E287B /* Sources */,
 				68853FED219E5719003E287B /* Frameworks */,
 				68853FEE219E5719003E287B /* Resources */,
+				998B6D2D7B38F659B163EAB3 /* [CP] Embed Pods Frameworks */,
+				EDE6316A0C835E3B34F95C5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6885401E219E571B003E287B /* Build configuration list for PBXNativeTarget "Assasins UI LayoutTests" */;
 			buildPhases = (
+				623F589C39474365DD345C57 /* [CP] Check Pods Manifest.lock */,
 				68854003219E571B003E287B /* Sources */,
 				68854004219E571B003E287B /* Frameworks */,
 				68854005219E571B003E287B /* Resources */,
@@ -170,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68854021219E571B003E287B /* Build configuration list for PBXNativeTarget "Assasins UI LayoutUITests" */;
 			buildPhases = (
+				5C4064A02F7B4F367E4B96BA /* [CP] Check Pods Manifest.lock */,
 				6885400E219E571B003E287B /* Sources */,
 				6885400F219E571B003E287B /* Frameworks */,
 				68854010219E571B003E287B /* Resources */,
@@ -232,7 +399,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A95D6921B4E439001EFD1E /* PlaceholderImage.png in Resources */,
 				68854001219E571B003E287B /* LaunchScreen.storyboard in Resources */,
+				68A95D7F21B51302001EFD1E /* GoogleService-Info.plist in Resources */,
 				68853FFE219E571B003E287B /* Assets.xcassets in Resources */,
 				68853FF9219E5719003E287B /* Main.storyboard in Resources */,
 			);
@@ -254,14 +423,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0526DC4749B75FA5FCB5ED25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assasins UI Layout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4064A02F7B4F367E4B96BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assasins UI LayoutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623F589C39474365DD345C57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assasins UI LayoutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		998B6D2D7B38F659B163EAB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Assasins UI Layout/Pods-Assasins UI Layout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assasins UI Layout/Pods-Assasins UI Layout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE6316A0C835E3B34F95C5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Assasins UI Layout/Pods-Assasins UI Layout-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assasins UI Layout/Pods-Assasins UI Layout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68853FEC219E5719003E287B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B859B07121B305CF00675703 /* Camera2ViewController.swift in Sources */,
+				68A95D8121B54929001EFD1E /* EnterMoreInfoViewController.swift in Sources */,
+				B874FF3B21A3E70700874204 /* LoginViewController.swift in Sources */,
 				68853FF6219E5719003E287B /* ViewController.swift in Sources */,
+				B874FF4521A71EDB00874204 /* TargetsViewController.swift in Sources */,
+				B874FF3F21A4EA8400874204 /* TargetTableViewCell.swift in Sources */,
+				B859B07A21B3250500675703 /* EditUserProfileViewController.swift in Sources */,
+				68A95D7821B50177001EFD1E /* UserClass.swift in Sources */,
+				B859B07721B3238800675703 /* UserProfileViewController.swift in Sources */,
+				B8A1299A21ACDCC3003DAF0D /* LearderboardViewController.swift in Sources */,
+				B859B07C21B36C5600675703 /* GamePlayerTableViewCell.swift in Sources */,
 				68853FF4219E5719003E287B /* AppDelegate.swift in Sources */,
+				B859B06F21B3046E00675703 /* CameraHandler.swift in Sources */,
+				68A95D6121B4D737001EFD1E /* CameraViewController.swift in Sources */,
+				B874FF4321A6816D00874204 /* GameViewController.swift in Sources */,
+				68A95D7221B500A9001EFD1E /* AssassinPlayer.swift in Sources */,
+				B85419C421AB4FC80057D092 /* TargetDetailViewController.swift in Sources */,
+				B859B07E21B379EE00675703 /* CreateGameViewController.swift in Sources */,
+				B85419C621AB721E0057D092 /* LobbyTableViewCell.swift in Sources */,
+				68A95D7321B500A9001EFD1E /* Game.swift in Sources */,
+				B874FF4121A6786B00874204 /* LobbyViewController.swift in Sources */,
 				68853FFC219E5719003E287B /* Assasins_UI_Layout.xcdatamodeld in Sources */,
+				B874FF3D21A3F54200874204 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +728,11 @@
 		};
 		6885401C219E571B003E287B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A50A4234AC8D3BB308C793 /* Pods-Assasins UI Layout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Assasins UI Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +747,11 @@
 		};
 		6885401D219E571B003E287B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959B7CA750EEEB9BABD2FCC5 /* Pods-Assasins UI Layout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Assasins UI Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +766,7 @@
 		};
 		6885401F219E571B003E287B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A9DBEDB6687CC2A39A3234 /* Pods-Assasins UI LayoutTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +787,7 @@
 		};
 		68854020219E571B003E287B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C46B7739625BAAEC385C9D /* Pods-Assasins UI LayoutTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +808,7 @@
 		};
 		68854022219E571B003E287B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7534C72940B5AE7FA0170D9 /* Pods-Assasins UI LayoutUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +828,7 @@
 		};
 		68854023219E571B003E287B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340D60A6FEE81D98480F92CC /* Pods-Assasins UI LayoutUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

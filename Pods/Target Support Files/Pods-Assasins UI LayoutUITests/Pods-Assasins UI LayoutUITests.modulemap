@@ -1,0 +1,6 @@
+framework module Pods_Assasins_UI_LayoutUITests {
+  umbrella header "Pods-Assasins UI LayoutUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
